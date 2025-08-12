@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vibe Coding - Mini Games</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>Vibe Coding - Mini Games</h1>
+      <div class="controls">
+        <label for="gameSelect">Choose a game:</label>
+        <select id="gameSelect">
+          <option value="none">-- Select --</option>
+          <option value="snake">Snake</option>
+          <option value="tetris">Tetris</option>
+        </select>
+        <button id="restartBtn" disabled>Restart</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <div id="hud" class="hud"></div>
+      <div id="gameContainer" class="game-container"></div>
+    </main>
+
+    <footer class="footer">
+      <p>Use keyboard: Arrow keys / WASD for Snake & Tetris. Press R to restart.</p>
+    </footer>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html> 
