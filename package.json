@@ -1,0 +1,22 @@
+{
+  "name": "vibe-coding-games",
+  "version": "1.0.0",
+  "description": "Node.js web page to select and play Snake, Tetris, and a 2D Runner game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "games",
+    "node",
+    "express",
+    "tetris",
+    "snake",
+    "runner"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+} 
